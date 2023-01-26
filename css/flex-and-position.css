@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    color: #777;
+}
+header, footer {
+    background-color: rgb(185, 225, 240);
+}
+.logo {
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: bold;
+}
+header a {
+    text-decoration: none;
+    color: #777;
+}
+main {
+    padding-inline: 1em;
+}
+.sticky-container .text {
+    text-align: justify;
+}
+.sticky-container .text p {
+    padding-block-end: 2em;
+    margin-block-start: 1em;
+    border-block-end: 1px solid lightgrey;
+}
+.sticky-card {
+    padding: 1em;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px #cfcfcf;
+}
+.sticky-card h2 {
+    margin-block-start: 0;
+    margin-block-end: .5em;
+
+    color:rgb(146, 146, 146);
+    text-align: justify;
+}
+.sticky-card h3, .modal h3 {
+    margin-block-start: 0;
+    margin-block-end: .5em;
+
+    text-transform: uppercase;
+    font-size: .75em;
+    color:rgb(192, 192, 192);
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.sticky-card p, .modal p {
+    margin-block-start: 2em;
+
+    color:rgb(192, 192, 192);
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: .82em;
+    text-align: justify;
+
+}
+.sticky-card button, .modal .btn-buy {
+    height: 2.5em;
+    margin-block-start: auto;
+
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px #cfcfcf;
+
+    background-color: rgb(255, 195, 83);
+}
+.backdrop {
+    background-color: rgb(177, 177, 177, .6);
+    
+    opacity: 0;
+    transition: opacity .8s ease-out;
+}
+.modal {
+    padding: 1em;
+    
+    border-radius: 10px;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 3px 3px 6px rgb(173 173 173);
+    
+    opacity: 0;
+    transition: opacity .8s ease-out;
+}
+.modal .btn-close{
+    border: 2px solid lightgrey;
+    box-shadow: 3px 3px 6px rgb(173 173 173);
+}
