@@ -27,8 +27,8 @@ main {
 }
 .sticky-container .text p {
     padding-block-end: 2em;
-    margin-block-start: 1em;
     border-block-end: 1px solid lightgrey;
+    margin-block-start: 1em;
 }
 .sticky-card {
     padding: 1em;
@@ -48,18 +48,18 @@ main {
     margin-block-end: .5em;
 
     text-transform: uppercase;
+    letter-spacing: 1px;
     font-size: .75em;
     color:rgb(192, 192, 192);
-    letter-spacing: 1px;
     font-weight: 100;
 }
 .sticky-card p, .modal p {
     margin-block-start: 2em;
 
-    color:rgb(192, 192, 192);
     letter-spacing: 1px;
     font-weight: 100;
     font-size: .82em;
+    color:rgb(192, 192, 192);
     text-align: justify;
 
 }
@@ -67,16 +67,15 @@ main {
     height: 2.5em;
     margin-block-start: auto;
 
-    color: white;
-    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
+    color: white;
+    font-weight: bold;
     
+    background-color: rgb(255, 195, 83);
     border: 1px solid lightgrey;
     border-radius: 8px;
     box-shadow: 1px 1px 6px #cfcfcf;
-
-    background-color: rgb(255, 195, 83);
 }
 .backdrop {
     background-color: rgb(177, 177, 177, .6);
@@ -87,8 +86,8 @@ main {
 .modal {
     padding: 1em;
     
-    border-radius: 10px;
     background-color: rgb(252, 252, 252);
+    border-radius: 10px;
     box-shadow: 3px 3px 6px rgb(173 173 173);
     
     opacity: 0;
